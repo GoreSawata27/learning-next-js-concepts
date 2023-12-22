@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  background-color: rgb(214, 228, 228);
+
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.app {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  height: 60px;
+  width: 100%;
+  background-color: lightblue;
+}
+
+.nav-container ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
